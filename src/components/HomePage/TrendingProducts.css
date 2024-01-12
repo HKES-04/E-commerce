@@ -1,0 +1,29 @@
+.products-container {
+  margin: 0px auto;
+  width: 85%;
+}
+
+.sec-heading {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+
+.sec-heading:after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 50px;
+  height: 3px;
+  background-color: rgb(237, 249, 126);
+}
+
+.products-card1 {
+  margin: 0;
+  max-width: 1400px;
+}
+
+.products-info {
+  margin-top: 3rem;
+}

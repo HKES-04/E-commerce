@@ -1,0 +1,40 @@
+.new-products {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.new-prodcuts-card {
+  margin-bottom: 4rem;
+}
+
+.sec-heading1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.sec-heading1:after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 50px;
+  height: 3px;
+  background-color: rgb(237, 249, 126);
+}
+
+.new-products-img {
+  object-position: 100% 20%;
+}
+
+.new {
+  margin: 50px auto;
+  width: 85%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(0, 0, 0);
+}

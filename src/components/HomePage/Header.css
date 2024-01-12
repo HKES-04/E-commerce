@@ -1,0 +1,110 @@
+.header {
+  padding: 0 3rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #212121;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  font-family: Nunito Sans;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header .logo {
+  width: 7rem;
+}
+
+.header-div {
+  padding: 0 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  margin-left: 3rem;
+}
+
+nav li a:hover {
+  color: #e5d23f;
+}
+
+nav ul li:hover {
+  color: #e5d23f;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.cart-div {
+  position: relative;
+}
+
+.cart-div img {
+  width: 1.5rem;
+}
+
+.cart-image {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  margin-left: 3rem;
+  margin-top: 0.2rem;
+}
+
+.cart-amount {
+  position: absolute;
+  left: 0.45rem;
+  top: 0.47rem;
+  font-weight: 700;
+  color: black;
+}
+
+.userinfo-name {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-left: 1rem;
+  margin-right: -2rem;
+  margin-bottom: 0.3rem;
+  color: white;
+}
+
+.switch {
+  cursor: pointer;
+}
+
+.mobile {
+  display: none;
+  color: white;
+  cursor: pointer;
+  margin: 0.3rem -3rem 0 2rem;
+}
+
+.nav-shop {
+  text-decoration: none;
+  color: white;
+}

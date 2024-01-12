@@ -1,0 +1,28 @@
+.search-input {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border-radius: 28px;
+  background: #efefef;
+  transition: box-shadow 0.25s;
+}
+
+.search-input:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-input input {
+  font-size: 16px;
+  color: #333333;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 400px;
+}
+
+.search-input input::placeholder,
+.search-icon {
+  color: rgba(0, 0, 0, 0.5);
+}

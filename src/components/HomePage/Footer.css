@@ -1,0 +1,95 @@
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  background-color: #151515;
+  color: #949494;
+}
+
+.footer-content {
+  max-width: 1480px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footer-one {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-left: 8rem;
+  margin-right: 3rem;
+}
+
+.footer-icon {
+  width: 8rem;
+}
+
+.footer-one p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.payments-img {
+  width: 14rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #9ca3af;
+}
+
+.social-media {
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+.social-media:hover {
+  color: white;
+}
+
+.h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.c1 {
+  line-height: 1.7rem;
+}
+
+.footer-three p {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+.footer-three p:hover {
+  color: white;
+}
+
+.footer-three p span {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.footer-four {
+  margin-left: -3rem;
+}
