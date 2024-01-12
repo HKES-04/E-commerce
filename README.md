@@ -14,8 +14,8 @@ This project presents a fully responsive e-commerce platform meticulously made u
 
 ### Links
 
-- Solution URL: (https://github.com/HKES-04/Dice-Game.git)
-- Live Site URL: (https://hkes-04.github.io/Dice-Game/)
+- Solution URL: (https://github.com/HKES-04/E-commerce/)
+- Live Site URL: (https://hussein-sultan-ecommerce.netlify.app/)
 
 ## My process
 
