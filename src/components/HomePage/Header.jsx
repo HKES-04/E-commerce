@@ -35,7 +35,9 @@ function Header() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/shop">Shop</a>
+              <Link to="/shop">
+                <a>Shop</a>
+              </Link>
             </li>
             <ScrollLink
               to="trending-section"
