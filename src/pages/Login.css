@@ -67,3 +67,7 @@
 .sign-out:hover {
   background-color: #2e3c51;
 }
+
+.login-option-two {
+  display: none;
+}
